@@ -1,21 +1,37 @@
-/*navbar*/
-.nav-right {
-	float: right;
+/*homepage*/
+.banner {
+	width: 100%;
 }
 
+/*.overlay {
+	margin-top: -334px;
+	margin-bottom: 150px;
+	color: blue;
+	/*text-shadow: 5px 0.3px #000;*/
+}
+*/
 
-/*homepage*/
-.navbar{
-	height: 50px;
+.hero-image {
+    /* The image used */
+    background-image: url(../img/banner.jpg);
+
+    /* Set a specific height */
+    height: 50%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 .home-search {
-	width: 60%;
+	width: auto;
 	margin: auto;
 }
 
-.jumbotron {
-	padding: 40px;
+.navbar-icon{
+	border-radius: 50%;
 }
 
 .icons span {
