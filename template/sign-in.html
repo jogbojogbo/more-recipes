@@ -2,18 +2,23 @@
 <html>
 <head>
 	<title>Sign in</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="css/font-awesome-4.7.0/css/font-awesome.css">
-	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome-4.7.0/css/font-awesome.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" type="text/css" href="css/custom.css">
 </head>
 <body class="sign-in">
   <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="index.html">More recipes</a>
+      <!-- <a class="navbar-brand" href="index.html">MORE RECIPES</a> -->
+      
+      <a class="navbar-brand" href="index.html">
+        <img src="img/cooking_icon.png" class="navbar-icon" width="30" height="30" class="d-inline-block align-top" alt="">
+      More Recipes</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
@@ -53,7 +58,7 @@
             <input type="checkbox" value="remember-me"> Remember me
           </label>
         </div>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        <button class="btn btn-lg btn-warning btn-block" type="submit">Sign in</button>
       </form>
 
     </div> <!-- /container -->
