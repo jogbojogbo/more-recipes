@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # more-recipes
 A web application where users can discover and share great food recipes  --an Andela Bootcamp project
 
@@ -27,3 +28,7 @@ Jogbojogbo Abdulrahman
 # Acknowledgments
 
 Holla to everyone who helped in some way to make this happen
+=======
+# more-recipes
+A web application where users can discover and share great food recipes  --an Andela Bootcamp project
+>>>>>>> gh-pages

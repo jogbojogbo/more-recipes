@@ -1,0 +1,171 @@
+/*homepage*/
+.banner {
+	width: 100%;
+}
+
+.hero-image {
+    /* The image used */
+    background-image: url(../img/banner.jpg);
+
+    /* Set a specific height */
+    height: 50%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.home-search {
+	width: auto;
+	margin: auto;
+	margin-bottom: 60px;
+}
+
+.bold-header{
+	color: #FFF
+}
+
+.rcp-name {
+	color: #fc900c;
+}
+
+.lead{
+	color: #FFF
+}
+.navbar-icon{
+	border-radius: 50%;
+}
+
+.icons span {
+	margin-right: 20px;
+}
+
+.home-recipe-btn {
+	margin-bottom: 40px;
+}
+
+.icons .fa {
+	color: #fc900c;
+}
+
+.recipe-icon {
+	width: 12.5%;
+	height: 12.5%;
+	border-radius: 50%;
+}
+
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+/*sign up*/
+.sign-up #confirmPassword {
+	margin-bottom: 20px;
+}
+
+/*recipes listing page*/
+.recipe-search {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.row-cards {
+	margin-bottom: 0px;
+}
+
+.stack {
+	margin-left: auto;
+	margin-right: auto; 
+}
+
+.aside-recipes {
+	background-color: #f8f9fa;
+}
+/*recipe product page*/
+.recipe-header-icon {
+	width: 12.5%;
+	height: 12.5%;
+	border-radius: 50%;
+	margin-top: 20px;
+}
+
+.product-header-icons i {
+	color: #fc900c;
+}
+
+.main-content {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.product-header-icons span {
+	margin-right: 15px;
+	margin-left: 15px; 
+}
+
+.sub-head {
+	margin-left: 40px;
+}
+
+.user-icon {
+	width: 3.3%;
+	height: 3.3%;
+	border-radius: 50%;
+}
+
+.reviews {
+	margin-left: 20px;
+}
+
+/*my favourites*/
+.favourite-recipes {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.recipe-list-header {
+	margin-top: 20px;
+}
+
+/*my profile*/
+.user-icon-header {
+	width: 12.5%;
+	height: 12.5%;
+	border-radius: 50%;
+}
+
+.user-profile {
+	margin-bottom: 150px;
+}
+
+/*recipe management*/
+.add-rcp-btn {
+	margin-bottom: 20px;
+}
+
+tbody .row {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+/*footer*/
+footer {
+      margin-bottom: 20px;
+    }
+
+/*add a recipe page*/
+
+.recipe-form {
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+}

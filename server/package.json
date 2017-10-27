@@ -1,0 +1,32 @@
+{
+  "name": "more-recipes",
+  "version": "1.0.0",
+  "description": "An online recipe directory",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jogbojogbo/more-recipes.git"
+  },
+  "keywords": [
+    "recipe"
+  ],
+  "author": "Abdulrahman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jogbojogbo/more-recipes/issues"
+  },
+  "homepage": "https://github.com/jogbojogbo/more-recipes#readme"
+}

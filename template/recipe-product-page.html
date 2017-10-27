@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Recipe</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome-4.7.0/css/font-awesome.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" type="text/css" href="css/custom.css">
+</head>
+<body class="recipe-product">
+
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <!-- <a class="navbar-brand" href="index.html">MORE RECIPES</a> -->
+      
+      <a class="navbar-brand" href="index.html">
+        <img src="img/cooking_icon.png" class="navbar-icon" width="30" height="30" class="d-inline-block align-top" alt="">
+      More Recipes</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="recipe-management.html">Add a recipe <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="sign-in.html">Sign in <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="sign-up.html">Sign up <span class="sr-only">(current)</span></a>
+          </li>      
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              User's name
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="my-profile.html">My profile</a>
+              <a class="dropdown-item" href="my-favourites.html">My favourites</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Sign out</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- main body -->
+    <div class="text-center">
+      <img class="recipe-header-icon" src="img/cooking_icon.png" alt="icon">
+    </div>
+
+    <div class="text-center">
+      <h5 class="mt-0 mb-1">Recipe Name</h5>
+      <div class="product-header-icons">
+        <span><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 139</span>
+        <span><i class="fa fa-thumbs-o-down" aria-hidden="true"></i> 139</span>
+        <span><i class="fa fa-heart" aria-hidden="true"></i> 139</span>
+        <span><i class="fa fa-eye" aria-hidden="true"></i> 139</span>
+      </div>
+    </div>
+    <br>
+    <div class="main-content">
+      <div class="sub-head">
+        <h4>Ingredients</h4>
+      </div>
+      <hr class="my-4">
+
+      <!-- ingredient -->
+      <ul class="container ingredients">
+        <li class="row">
+          <div class="col-sm">
+            <p>Ingredient 1</p>
+          </div>
+          <div class="col-sm">
+            <p>Ingredient 2</p>
+          </div>
+          <div class="col-sm">
+            <p>Ingredient 3</p>
+          </div>
+        </li>
+      </ul>
+
+      <!-- directions -->
+      <div class="sub-head">
+        <h4>Directions</h4>
+      </div>
+      <hr class="my-4">
+      <ol class="container directions">
+        <li>
+          <div class="col-sm-9">
+            <p>A step by step and easy to grasp guide on how to use the ingredients to make a dish</p>
+          </div>
+        </li>
+        <li>
+          <div class="col-sm-9">
+            <p>A step by step and easy to grasp guide on how to use the ingredients to make a dish</p>
+          </div>
+        </li>
+        <li>
+          <div class="col-sm-9">
+            <p>A step by step and easy to grasp guide on how to use the ingredients to make a dish</p>
+          </div>
+        </li>    
+      </ol>
+
+      <!-- reviews -->
+      <div class="sub-head">
+        <h4>Reviews</h4>
+      </div>
+      <hr class="my-4">
+      <ul class="list-unstyled reviews">
+        <li class="media">
+          <img class="mr-3 user-icon" src="img/user_icon.png" alt="Generic placeholder image">
+          <div class="comment-block">
+            <div class="contributor-name">
+              <h5 class="mt-0 mb-1">Contributor's name</h5>
+            </div>
+            <div class="comment">
+              <p>Random random comment by someone who found this recipe useless, he also wants to suggest a modification</p>
+            </div>
+          </div>
+        </li>
+        <li class="media">
+          <img class="mr-3 user-icon" src="img/user_icon.png" alt="Generic placeholder image">
+          <div class="comment-block">
+            <div class="contributor-name">
+              <h5 class="mt-0 mb-1">Contributor's name</h5>
+            </div>
+            <div class="comment">
+             <p>Random random comment by someone who found this recipe useless, he also wants to suggest a modification</p>
+           </div>
+         </div>
+       </li>
+       <li class="media">
+        <img class="mr-3 user-icon" src="img/user_icon.png" alt="Generic placeholder image">
+        <div class="comment-block">
+          <div class="contributor-name">
+            <h5 class="mt-0 mb-1">Contributor's name</h5>
+          </div>
+          <div class="comment">
+           <p>Random random comment by someone who found this recipe useless, he also wants to suggest a modification</p>
+         </div>
+       </li>
+     </ul>
+   </div>
+   
+   <!-- footer -->
+   <footer class="footer text-center">
+    <row class="text-muted">&copy Jogbojogbo Abdulrahman - Andela Bootcamp</row>
+  </footer> 
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/more-recipes.js"></script>
+</body>
+</html>
